@@ -1,0 +1,31 @@
+
+
+.note{
+    width: 160px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.5s;
+  }
+
+  .note:hover{
+    opacity: 0.7;
+  }
+  
+  .note .content{
+    font-size: 12px;
+  }
+  
+  .note .date{
+    font-size: 10px;
+    margin-top: 10px;
+    opacity: 0.8;
+  }
+
+  .notes-list{
+    display: flex;
+    flex-wrap: wrap;
+  }
